@@ -24,3 +24,17 @@ console.log('Hello') // this registers it as a string
 console.log('12345') 
 console.log('12345' +10); // math won't work
 console.log('hello ' + 'world');
+
+//Functions and how they work
+function setup() {
+  console.log('setup');//this is a funtion so when logged it will not return anything
+  //anything inside will execute once
+}
+
+function draw() {
+  console.log('draw');//runs /second ensure you stop this
+  //anything inside will execute repeatedly
+}
+ //Note setup will always run before the draw function regardless of where it is placed
+
+console.log('hello');
