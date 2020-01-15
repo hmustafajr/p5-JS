@@ -38,3 +38,10 @@ function draw() {
  //Note setup will always run before the draw function regardless of where it is placed
 
 console.log('hello');
+
+//Creating a Canvas and Background
+function setup() {
+createCanvas(800,400);
+  background(220)
+}
+
